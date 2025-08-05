@@ -4,67 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Landing Page</title>
-  <style>
-    body {
-  margin: 0;
-  font-family: sans-serif;
-  background-image: url('bkground.jpg');
-  background-repeat: no-repeat;       /* ✅ Prevents repeating */
-  background-size: cover;             /* ✅ Covers entire screen */
-  background-position: center center; /* ✅ Ensures it's centered */
-  background-attachment: fixed;       /* ✅ Keeps it fixed while scrolling */
-}
-#lor{
-    display:flex;
-    flex-direction: row;
-    font-family: cursive;
-    font-weight: 300;
-}
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: rgba(0, 0, 0, 0.6);
-      color: white;
-      display: flex;
-      animation: slideDown 1s ease-in-out forwards;
-    }
-
-    @keyframes slideDown {
-      from {
-        transform: translateY(-100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-    h1{
-        font-size: 250 rem;
-        color:grey;
-        font-family: cursive;
-        text-align: center;  
-    }
-
-    nav img {
-      width: 50px;
-    }
-
-    nav h3 {
-      margin: 0 1rem;
-      cursor: pointer;
-    }
-
-    nav input {
-      padding: 0.5rem;
-      border-radius: 8px;
-      border: none;
-      width: 200px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav>
@@ -73,7 +13,12 @@
       <h3>Login</h3>
       <h3>Register</h3>
     </div>
-    <input type="text" placeholder="Check in your location?" />
+    <select>
+      <option value="522001">Guntur</option>
+      <option value="">Tenali</option>
+      <option value="">Hyderabad</option>
+      <option value="">Other</option>
+    </select>
   </nav>
   <h1>Welcome to Our Baby Care Center</h1>
   <h2>get feel of mothers woomb</h2>
