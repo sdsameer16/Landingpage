@@ -1,0 +1,61 @@
+  body {
+  margin: 0;
+  background-image: url('bkground.jpg');
+  background-repeat: no-repeat;       
+  background-size: cover;             
+  background-position: center center; 
+  background-attachment: fixed;       
+}
+#lor{
+    display:flex;
+    flex-direction: row;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: white;
+      display: flex;
+    }
+    nav img{
+      border-radius: 50px;
+    }
+    #lor:hover{
+      color: red;
+      font-style: oblique;
+    }
+
+    h1{
+        font-size: 100px;
+        color:blue;
+        font-family: cursive;
+        text-align: center;  
+    }
+
+    nav img {
+      width: 50px;
+    }
+
+    nav h3 {
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+
+    nav input {
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: none;
+      width: 200px;
+    }
+    select{
+      color: goldenrod;
+      background-color: blanchedalmond;
+    }
+    h1::first-letter{
+      color: gold;
+    }
