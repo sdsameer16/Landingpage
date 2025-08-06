@@ -12,6 +12,9 @@
     font-family: cursive;
     font-weight: 300;
 }
+button{
+border-radius=25px
+}
 
     nav {
       display: flex;
@@ -58,4 +61,5 @@
     }
     h1::first-letter{
       color: gold;
+
     }
